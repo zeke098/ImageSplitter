@@ -25,8 +25,8 @@ namespace ImageSplitter
     {
         static void Main(string[] args)
         {
-            var height = int.Parse(args[0]);
-            var width = int.Parse(args[1]);
+            var width = int.Parse(args[0]);
+            var height = int.Parse(args[1]);
             var imagePath = args[2];
             var saveTo = args[3];
             var prefix = args[4];
